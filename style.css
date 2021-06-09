@@ -35,7 +35,6 @@ h3 {
     font-weight: 900;
     
 }
-/* HEADERIS */
 
 .header {
     display: flex;
@@ -64,7 +63,7 @@ h3 {
     color: #FFFFFF;
     margin: 0;
     margin-top: 33.6111rem;
-    margin-left: 66%;
+    margin-left: 64%;
     font-weight: 700;
     font-size: 1.5625rem;
     white-space: nowrap;
@@ -496,6 +495,9 @@ h3 {
     .knowmore p {
         padding-top: 3.5rem;
         font-size:1.25rem;
+    }
+    .vrtext .fas {
+        margin-top:0.1667rem;
     } 
 
 }
@@ -514,8 +516,14 @@ h3 {
         font-size: 1rem;
         padding-top: 3rem;
     }
+    .vrtext .fas {
+        margin-top:0.1667rem;
+    }
 }
 @media all and (max-width:1240px) {
+    .vrtext .fas {
+        margin-top:0.1111rem;
+    }
     .contactus {
         margin-top:2.7778rem;
         margin-left:5.9444rem;
